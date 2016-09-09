@@ -1,0 +1,145 @@
+@media screen and (max-width:500px){
+	*{
+	box-sizing: border-box;
+}
+
+body{
+	background:white;
+	margin-top:100px;
+}
+
+#TopBar {
+	background:#373737;
+	width:100%;
+	min-height:100px;
+	position:fixed;
+	top: 0;
+	left: 0;
+}
+
+.TopBarHeading{
+	color:white;
+	font-size:50px;
+	align-content:flex-start;
+	font-family: 'Shadows Into Light', cursive;
+	padding-left: 20px;
+	padding-top:20px;
+}
+
+#Friend{
+	height:300px;
+	width:90%;
+	background:#373737;
+	border:solid black;
+	color:white;
+	float:left;
+	margin-left:3%;
+	margin-top:3%;
+}
+
+#Friend:hover{
+	background:#404040;
+}
+
+.profpic {
+	width:150px;
+	height:150px;
+	padding:10px;
+	flex-wrap:wrap;
+}
+
+.name{
+	font-size:50px;
+	text-align: right;
+	padding:15px;
+	float:right;
+
+}
+
+.icon {
+	width:20%;
+	float:right;
+	padding-left:10px;
+	position: relative;
+}
+
+.clearfix{
+	overflow:auto;
+}
+}
+
+@media screen and (min-width:501px){
+*{
+	box-sizing: border-box;
+}
+
+body{
+	background:white;
+	margin-top:100px;
+}
+
+#TopBar {
+	background:#373737;
+	width:100%;
+	min-height:100px;
+	position:fixed;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+
+.TopBarHeading{
+	color:white;
+	font-size:50px;
+	align-content:flex-start;
+	font-family: 'Shadows Into Light', cursive;
+	padding-left: 20px;
+	padding-top:20px;
+}
+
+#Friend{
+	height:300px;
+	width:45%;
+	background:#373737;
+	border:solid black;
+	color:white;
+	float:left;
+	margin-left:3%;
+	margin-top:3%;
+	position:relative;
+}
+
+#Friend:hover{
+	background:#404040;
+}
+
+.profpic {
+	width:30%;
+	min-height:40%;
+	padding:10px;
+	flex-wrap:wrap;
+}
+
+.name{
+	font-size:3vw;
+	text-align:right;
+	padding:15px;
+	position:absolute;
+	top:0;
+	right:0;
+}
+
+.icon {
+	width:20%;
+	float:right;
+	padding-left:10px;
+	position: relative;
+	display:inline-block;
+	bottom:0;
+	right:0;
+}
+
+.clearfix{
+	overflow:auto;
+}
+}
